@@ -1,7 +1,7 @@
 body {
   margin: 0;
   padding: 30px; 
-  background-color: rgb(255,211, 25);
+  background-color: rgb(163, 161, 152);
 }
 
 /* PokemonList.css */
@@ -9,7 +9,7 @@ body {
   margin: 0;
   margin-left: 30px;
   margin-right: 30px;
-  background-color: rgb(254,226,62);
+  background-color: rgb(211, 186, 61);
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
   display: flex;
@@ -25,31 +25,31 @@ body {
   width: 23%; 
   margin: 1%; 
   padding: 10px;
-  background-color: rgb(246,239,119);
+  background-color: rgb(228, 224, 149);
   border-radius: 40px;
   text-align:left;
   
 }
 .pokemon-item:hover {
-  background-color: rgb(255,255,0);
+  background-color: rgb(158, 209, 38);
   
 }
 .pokemon-item:hover div {
-  background-color: rgb(255,255,0); 
+  background-color: rgb(158, 209, 38); 
 }
 
 .pokemon-item img {
   width: 300%; 
   height:300%;  
   align-self: center;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
+  box-shadow: 0 4px 8px rgb(184, 4, 4);
   border-radius: 200px;
 }
 
 /* Navbar.css */
 .navbar {
-  background-color: rgb(201,175,40);
-  color: white;
+  background-color: rgb(228, 199, 33);
+  color: rgb(141, 16, 16);
   padding: 10px 0;
 }
 
@@ -69,22 +69,23 @@ body {
 .nav-links {
   list-style: none;
   font-size: 1.5rem;
+  font-weight: 500;
   display: flex;
-  gap: 20px;
+  gap: 30px;
 }
 
 .nav-links li a {
   text-decoration: none;
-  color: white;
+  color: rgb(102, 11, 11);
   transition: color 0.3s ease;
 }
 
 .nav-links li a:hover {
-  color: #61dafb; 
+  color: rgb(199, 35, 84);
 }
 /* Card Container */
 .card-container {
-  background-color:rgb(254,226,62);
+  background-color:rgb(177, 145, 192);
    text-align: center;
   padding: 20px;
   margin: 0;
@@ -97,10 +98,10 @@ body {
   display: flex;
   flex-direction: column; /* Display elements in a column layout */
   align-items: center;
-  border: 1px solid rgb(24, 23, 5);
+  border: 1px solid rgb(12, 126, 39);
   border-radius: 10px;
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 1);
-  background-color: rgb(237,228,183);
+  box-shadow: 0 8px 16px rgb(99, 27, 27);
+  background-color: rgb(168, 134, 134);
   margin: 0 auto;
   max-width: 500px; /* Adjust the maximum width as needed */
   padding: 20px;
@@ -134,7 +135,7 @@ body {
   margin-bottom: 10px;
   text-transform: uppercase;
   text-align: center;
-  color: #584D16 ;
+  color: #073e53 ;
 }
 
 .pokemon-details h3 {
@@ -142,14 +143,14 @@ body {
   margin-top: 40px;
   margin-bottom: 40px;
   text-align: center;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  color: #917F23 ;
+  box-shadow: 0 4px 8px rgba(212, 12, 12, 0.2);
+  color: #9b0e3b ;
 }
 
 .pokemon-list li {
   margin: 5px 0;
   font-weight: bold; 
-  color: #D0B83E ;
+  color: #560e64 ;
 }
 
 
