@@ -6,7 +6,7 @@ import Contact from './pages/Contact';
 
 function App() {
   return (
-    <Router basename='/pokedex-react' >
+    <Router basename='/pokedexreact' >
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
